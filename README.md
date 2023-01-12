@@ -36,7 +36,7 @@ npm i
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd assignment
 npm run dev
 ```
 
