@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
+
+:root {
+  --default-spacing: 16px;
+  --background-color: #D3FFE9;
+  --border-color: #9BC4BC;
+  --accent-color: #8DDBE0;
+  --text-color-1: #4B5043;
+  --text-color-2: #090909;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+#__next{
+  height: 100%;
+}
+
+.heading {
+  color: var(--text-color-1);
+  margin-bottom: var(--default-spacing);
+}
+
+.container {
+  max-width: 1048px;
+  padding: var(--default-spacing);
+  margin-top: var(--default-spacing);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+}
+
+.form-wrapper{
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.form-wrapper .input-field, .form-wrapper .primary-btn {
+  flex: 1;
+}
+
+.primary-btn {
+  border: 2px solid var(--accent-color);
+  color: var(--border-color);
+  background-color: white;
+  outline: none;
+  padding: 12px var(--default-spacing);
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.input-field {
+  height: 36px;
+  padding: 12px;
+  margin-bottom: var(--default-spacing);
+  border: 2px solid var(--background-color);
+  outline: none;
+  border-radius: 4px;
+}
+
+.input-field:focus{
+  box-shadow: 0 1px 1px 1px var(--accent-color);
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-wrapper {
+  padding: 12px;
+  background-color: var(--background-color);
+  margin-right: 12px;
+  margin-bottom: var(--default-spacing);
+}
+
+.image-item {
+  width: 300px;
+  height: 400px;
+}
