@@ -8,10 +8,8 @@ This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It inclu
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `backend`: a Express app with mongodb and typescript
+- `myapp`: another [Next.js](https://nextjs.org/) app
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
@@ -24,12 +22,29 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
+### Install 
+
+To install all apps and packages, run the following command:
+
+```
+npm i
+```
+
+
+### Develop
+
+To develop all apps and packages, run the following command:
+
+```
+cd my-turborepo
+npm run dev
+```
+
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 npm run build
 ```
 
@@ -38,7 +53,7 @@ npm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd assignment
 npm run dev
 ```
 
