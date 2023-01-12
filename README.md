@@ -22,14 +22,13 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 
-### Install 
+### Install
 
 To install all apps and packages, run the following command:
 
 ```
 npm i
 ```
-
 
 ### Develop
 
